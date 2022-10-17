@@ -16,6 +16,7 @@ import { MessageEditComponent } from './messages/message-edit/message-edit.compo
 import { MessageListComponent } from './messages/message-list/message-list.component';
 import { DropDownDirective } from './messages/dropdown.directive';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,8 +32,8 @@ import { DropDownDirective } from './messages/dropdown.directive';
     MessageItemComponent,
     MessageEditComponent,
     MessageListComponent,
-    DropDownDirective
-
+    DropDownDirective,
+    
   ],
   imports: [
     BrowserModule
