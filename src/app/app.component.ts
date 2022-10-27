@@ -8,9 +8,6 @@ import { MessageService } from './messages/message.service';
   providers:[MessageService]
 })
 export class AppComponent {
-  selectedFeature ="contacts";
+ 
 
-  switchView(selectedFeature:string){
-    this.selectedFeature = selectedFeature;
-  }
 }

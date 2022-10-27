@@ -4,8 +4,8 @@
             <p class="pull-left title" style="font-size:16px ;font-weight:bold;margin-left:5px;">{{contact.name}}</p>
             <div class="pull-down" style="margin-top:40px ;margin-left:5px;">
             <img [src]="contact.imageUrl" alt="contact.name"class="img-responsive " ></div>
-            <a  class="btn btn-danger pull-right" style="margin-right:5px">Delete</a>
-            <a class="btn btn-primary pull-right"style ="margin-left:5px">Edit</a>
+            <a (click)="onDelete()" class="btn btn-danger pull-right" style="margin-right:5px">Delete</a>
+            <a [routerLink]="['edit']" routerLinkActive="active" class="btn btn-primary pull-right"style ="margin-left:5px">Edit</a>
     </div>
     <hr style="color:white ; font-weight:bold;">
     <div class="panel-body" style="background-color: white;">
